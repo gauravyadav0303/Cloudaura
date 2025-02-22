@@ -34,10 +34,10 @@ function FooterTwo() {
                                 <div className="footer-widget widget_nav_menu">
                                     <h2 className="footer-widget-title">Pages</h2>
                                     <ul className="menu">
-                                        <li><a href="/">Home</a></li>
-                                        <li><a href="/about-us">About</a></li>
-                                        <li><a href="/service">Service</a></li>
-                                        <li><a href="/user-experience">service-details</a></li>
+                                      <li> <NavLink to="/">Home</NavLink></li>
+                                                                          <li><NavLink to="/about-us">About</NavLink></li>
+                                                                          <li><NavLink to="/service">Services</NavLink></li>
+                                                                          <li> <NavLink to="/service">Service Page</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
@@ -45,10 +45,10 @@ function FooterTwo() {
                                 <div className="footer-widget widget_nav_menu">
                                     <h2 className="footer-widget-title">Company</h2>
                                     <ul>
-                                        <li><a href="/project">Project</a></li>
-                                        <li><a href="/project-details">Project detail</a></li>
-                                        <li><a href="/blog">Blog</a></li>
-                                        <li><a href="/blog-details">Blog detail</a></li>
+                                        <li><NavLink to="/project">Project Page</NavLink></li>
+                                                                           <li><NavLink to="/project-details">Project Page Details</NavLink></li>
+                                                                           <li><NavLink to="/blog">Blog</NavLink></li>
+                                                                           <li><NavLink to="/blog">Blog Page</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
