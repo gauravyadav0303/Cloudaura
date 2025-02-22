@@ -39,7 +39,7 @@ function HeaderTwo() {
       <header className="header-area style-2">
         <div className="header-menu-area sticky-header">
           <div className="container">
-            <div className="row flex  ">
+            <div className="flex flex-row justify-between  ">
               <div className="sm:w-[50%] md:w-[25%] lg:w-[25%] flex items-center">
                 <div className="logo">
                   <a href="/" className="standard-logo">
